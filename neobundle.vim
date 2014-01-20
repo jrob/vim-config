@@ -22,8 +22,6 @@ NeoBundle 'Shougo/vimproc', {
 "nnoremap <leader>mf :Unite -no-split -buffer-name=files  -start-insert file_rec/async<cr>
 "nnoremap <leader>mg :Unite grep:.<cr>
 
-NeoBundle 'tpope/vim-surround'
-"vmap s S " Map visual mode to use s and not S
 
 NeoBundle 'xolox/vim-misc'
 NeoBundle 'xolox/vim-session'
@@ -31,6 +29,7 @@ if has('gui_running')
     set sessionoptions+=resize,winpos
     let g:session_autoload='yes'
     let g:session_autosave='yes'
+    "let g:session_default_to_last=1
 endif
 
 " Walk through installed colorschemes using arrow keys. 
@@ -38,26 +37,50 @@ endif
 "NeoBundle 'Colour-Sampler-Pack'
 NeoBundle 'w0ng/vim-hybrid'
 "NeoBundle 'dandorman/vim-colors'
-"NeoBundle 'flazz/vim-colorschemes'
+NeoBundle 'flazz/vim-colorschemes'
 "NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'xolox/vim-colorscheme-switcher'
+"NeoBundle 'jonathanfilip/vim-lucius'
+nnoremap <F9> :let @A = g:colors_name."','"<CR>
+let g:colorscheme_switcher_exclude = [
+    \ 'default',
+    \ 'koehler','morning','murphy',
+    \ 'shine','zellner','blue','elflord',
+    \ 'pablo','ron','peachpuff','torte','darkblue','delek',
+    \ 'ibmedit','impact','ironman','jhdark','khaki','3dglasses','adam','adobe','adrian','af','aiseered','aqua','astronaut',
+    \ 'asu1dark','badwolf','basic','bayQua','billw','blacklight','bluez','bog','borland','breeze','brown','busierbee','bw','c','calmar256-light','campfire','carrot','carvedwoodcool','chela_light','chlordane','ChocolateLiquor','cleanphp',
+    \ 'adaryn','advantage','ansi_blows','baycomb','beachcomber','bensday','blackbeauty','bluegreen','bluegreen','blueprint','blugrine','bmichaelsen',
+    \ 'busybee','buttercream','charon','chocolate','ChocolatePapaya','clarity','cloudy','clue','codeblocks_dark','coffee','colorer','colorful','colorful256','colorscheme_template','colorzone','contrasty','cool','corn','cthulhian','custom','d8g_01','d8g_02','dante',
+    \ 'dark-ruby','darkblack','darkBlue','darkbone','darkdot','darker-robin','darkocean','darkroom',
+    \ 'darkzen','delphi','derefined','desertedocean','desertedoceanburnt','deveiate',
+    \ 'd8g_04','denim','django','doorhinge','doriath','earth','edo_sea','ekvoli','elise','elisex','far',
+    \ 'fnaqevan','fog','gardener','gemcolors','golden','google','gor','gothic','greens','greenvision','greyblue','guardian','guepardo','h80','impactG','kib_plastic',
+    \ 'legiblelight','lilac','lilydjwg_dark','lilydjwg_green','luinnar','made_of_code','manxome','marklar','mars','matrix','mellow','miko','miko','MountainDew','mud','navajo','navajo-night','neutron','nicotine','night_vision','nightVision','oceanblack256','oceanlight','orange','pink','potts',
+    \ 'tabula','telstar','tetragrammaton','thestars','tibet','tomatosoup','twilight256','vylight','wargrey','widower','win9xblueback','wood','xian','xmaslights','zen'
+    \ ]
 if has('gui_running')
     "colorscheme inkpot
     "colorscheme maroloccio
     "colorscheme jellybeans
     "colorscheme rootwater
-    colorscheme hybrid
+    "colorscheme hybrid-light
     "colorscheme candyman
     "colorscheme darkrobot
+    "colorscheme eclipse
+    colorscheme dual
 endif
 
 NeoBundle 'mbbill/VimExplorer'
 NeoBundle 'eiginn/netrw'
 NeoBundle 'xolox/vim-shell'
-NeoBundle 'tpope/vim-repeat'
 NeoBundle 'PProvost/vim-ps1'
+NeoBundle 'tpope/vim-surround'
+NeoBundle 'tpope/vim-repeat'
+NeoBundle 'tpope/vim-unimpaired'
 "NeoBundle 'yonchu/accelerated-smooth-scroll'
 "NeoBundle 'Kazark/vim-SimpleSmoothScroll'
+NeoBundle 'dhruvasagar/vim-table-mode'
+NeoBundle 'godlygeek/tabular'
 
 " vim-snipmate dependancies
 NeoBundle "MarcWeber/vim-addon-mw-utils"
@@ -75,6 +98,8 @@ let g:pandoc_no_folding = 1
 
 NeoBundle 'vim-scripts/VOoM'
 NeoBundle 'vimwiki/vimwiki'
+let g:vimwiki_table_mappings = 0
+let g:vimwiki_table_auto_fmt = 0
 
 "let wiki_1 = {}
 "let wiki_1.path = '~/my_docs/'

@@ -20,7 +20,7 @@ nnoremap / /\v
 vnoremap / /\v
 set ignorecase               " When searching, case of normal letters is ignored
 set smartcase                " Ignore case when the pattern contains lowercase letters only
-set gdefault                 " flag 'g' is default on
+"set gdefault                 " flag 'g' is default on
 set incsearch                " Enable incremental search
 set hlsearch                 " Enable search hightlighting
 set showmatch                " % will briefly jump to match
