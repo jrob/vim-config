@@ -10,6 +10,7 @@ set nocompatible
 set encoding=utf-8          " Set default encoding to utf-8
 
 "-------------------------------------------------------------------------------
+exec "source ".myvimpath."\\backup-undo.vim"
 exec "source ".myvimpath."\\common.vim"
 "exec "source ".myvimpath."\\vundle.vim"
 exec "source ".myvimpath."\\neobundle.vim"
@@ -37,9 +38,9 @@ set undolevels=10000         " use many muchos levels of undo
 "set autochdir                " Change directory to the current buffer when opening files.
 
 " vim litter
-set nobackup                 " Do not create backup files when saving over existing files
-set nowritebackup            " A little paranoid, but disable the writebackup function as well
-set noswapfile               " No swap files when editing please
+"set nobackup                 " Do not create backup files when saving over existing files
+"set nowritebackup            " A little paranoid, but disable the writebackup function as well
+"set noswapfile               " No swap files when editing please
 
 set listchars=tab:»\         " Show Tab Characters
 "set listchars+=eol:¬        " Make Line Wraps More Noticeable
