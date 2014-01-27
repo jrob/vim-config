@@ -67,8 +67,9 @@ if has('gui_running')
     "colorscheme candyman
     "colorscheme darkrobot
     "colorscheme dual
-    "colorscheme moria
-    colorscheme eclipse
+    set background=light
+    colorscheme moria
+    "colorscheme eclipse
 endif
 
 NeoBundle 'mbbill/VimExplorer'
