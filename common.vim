@@ -32,6 +32,6 @@ nnoremap <leader><space> :noh<cr>
 
 set clipboard=unnamed " Use the system clipboard for y and p
 
-" Map Alt-j/k to move lines up and down.
+" Map Alt-j/k to scroll up and down.
 nnoremap <silent> <A-j> <C-E><C-E><C-E>
 nnoremap <silent> <A-k> <C-Y><C-Y><C-Y>
