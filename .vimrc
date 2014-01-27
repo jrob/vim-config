@@ -5,6 +5,10 @@
 
 set nocompatible
 
+" This needs to be done before other mappings. Otherwise alt mappings dont
+" work.
+set encoding=utf-8          " Set default encoding to utf-8
+
 "-------------------------------------------------------------------------------
 exec "source ".myvimpath."\\common.vim"
 "exec "source ".myvimpath."\\vundle.vim"
@@ -16,7 +20,6 @@ exec "source ".myvimpath."\\netrw.vim"
 "-------------------------------------------------------------------------------
 
 set fileencoding=utf-8       " Set default encoding to utf-8
-"set encoding=utf-8          " Set default encoding to utf-8
 set wildmenu                 " enables a menu at the bottom of the vim/gvim window
 set scrolloff=3              " Minimal number of screen lines to keep above and below the cursor
 set autoindent               " Copy indent from current line when starting a new line
