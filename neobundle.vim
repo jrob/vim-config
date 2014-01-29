@@ -96,20 +96,20 @@ NeoBundle "garbas/vim-snipmate"
 " Python stuff
 NeoBundle 'davidhalter/jedi-vim'
 
-NeoBundle 'vim-pandoc/vim-pandoc'
-let g:pandoc_no_folding = 1
+"NeoBundle 'vim-pandoc/vim-pandoc'
+"let g:pandoc_no_folding = 1
 
 NeoBundle 'vim-scripts/VOoM'
-NeoBundle 'vimwiki/vimwiki'
-let g:vimwiki_table_mappings = 0
-let g:vimwiki_table_auto_fmt = 0
+"NeoBundle 'vimwiki/vimwiki'
+"let g:vimwiki_table_mappings = 0
+"let g:vimwiki_table_auto_fmt = 0
 
 "let wiki_1 = {}
 "let wiki_1.path = '~/my_docs/'
-let wiki_1.ext = '.md'
-let wiki_1.syntax = 'markdown'
-let g:vimwiki_list = [wiki_1]
-autocmd BufWinEnter,BufLeave,BufEnter */dropbox/notes/*.md set syntax=vimwiki
+"let wiki_1.ext = '.md'
+"let wiki_1.syntax = 'markdown'
+"let g:vimwiki_list = [wiki_1]
+"autocmd BufWinEnter,BufLeave,BufEnter */dropbox/notes/*.md set syntax=vimwiki
 
 "Bundle 'scrooloose/nerdtree'
 "let NERDTreeHijackNetrw = 0
