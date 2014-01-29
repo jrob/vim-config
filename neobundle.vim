@@ -67,7 +67,8 @@ if has('gui_running')
     "colorscheme candyman
     "colorscheme darkrobot
     "colorscheme dual
-    set background=light
+    "set background=light
+    let moria_style='white'
     colorscheme moria
     "colorscheme eclipse
 endif
