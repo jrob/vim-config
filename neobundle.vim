@@ -3,7 +3,7 @@ filetype off " required!
 let &rtp=&rtp.",".myvimpath."\\bundle\\neobundle.vim"
 call neobundle#rc(myvimpath."\\bundle")
 
-" required! 
+" required!
 NeoBundle 'Shougo/neobundle.vim'
 
 " Recommended to install
@@ -32,7 +32,7 @@ if has('gui_running')
     "let g:session_default_to_last=1
 endif
 
-" Walk through installed colorschemes using arrow keys. 
+" Walk through installed colorschemes using arrow keys.
 "NeoBundle 'ScrollColors'
 "NeoBundle 'Colour-Sampler-Pack'
 NeoBundle 'w0ng/vim-hybrid'
