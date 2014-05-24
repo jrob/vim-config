@@ -36,7 +36,7 @@ endif
 "NeoBundle 'ScrollColors'
 "NeoBundle 'Colour-Sampler-Pack'
 NeoBundle 'w0ng/vim-hybrid'
-"NeoBundle 'dandorman/vim-colors'
+"neoBundle 'dandorman/vim-colors'
 NeoBundle 'flazz/vim-colorschemes'
 "NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'xolox/vim-colorscheme-switcher'
@@ -126,6 +126,11 @@ NeoBundle 'vim-scripts/VOoM'
 "let g:notes_suffix = '.md'
 "let g:notes_smart_quotes = 0
 "au BufNewFile,BufRead *.md set filetype=pandoc
+
+NeoBundle 'bronson/vim-trailing-whitespace'
+NeoBundle 'chrisbra/csv.vim'
+"NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'jlanzarotta/bufexplorer'
 
 filetype plugin indent on     " required!
 
