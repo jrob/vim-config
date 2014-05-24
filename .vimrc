@@ -45,10 +45,10 @@ set undolevels=10000         " use many muchos levels of undo
 
 set listchars=tab:»\         " Show Tab Characters
 "set listchars+=eol:¬        " Make Line Wraps More Noticeable
-set listchars+=trail:·       " Show Trailing Whitespace
-"set list
-autocmd FileType * set nolist
-autocmd FileType pandoc,vim,vimwiki set list
+"set listchars+=trail:·       " Show Trailing Whitespace
+set list
+"autocmd FileType * set nolist
+"autocmd FileType pandoc,vim,vimwiki set list
 
 " This will reset the listchars option to the default:
 " set listchars&
@@ -90,5 +90,15 @@ function! PandocConv()
     call xolox#misc#os#exec(cmd)
 endfunction
 
-map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR> 
+"map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
+
+" noremap <C-PageUp> :bp
+" noremap <C-PageDown> :bn
+" noremap <C-F4> :bd
+"
+
+
+"autocmd InsertEnter * syn clear EOLWS | syn match EOLWS excludenl /\s\+\%#\@!$/
+"autocmd InsertLeave * syn clear EOLWS | syn match EOLWS excludenl /\s\+$/
+"highlight EOLWS ctermbg=red guibg=red
 
