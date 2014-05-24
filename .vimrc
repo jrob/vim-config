@@ -12,6 +12,7 @@ set encoding=utf-8          " Set default encoding to utf-8
 "-------------------------------------------------------------------------------
 exec "source ".myvimpath."\\backup-undo.vim"
 exec "source ".myvimpath."\\common.vim"
+exec "source ".myvimpath."\\abbreviations.vim"
 "exec "source ".myvimpath."\\vundle.vim"
 exec "source ".myvimpath."\\neobundle.vim"
 exec "source ".myvimpath."\\line-move.vim"
