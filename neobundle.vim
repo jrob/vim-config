@@ -127,7 +127,8 @@ NeoBundle 'vim-scripts/VOoM'
 "let g:notes_smart_quotes = 0
 "au BufNewFile,BufRead *.md set filetype=pandoc
 
-NeoBundle 'bronson/vim-trailing-whitespace'
+NeoBundle 'ntpeters/vim-better-whitespace'
+
 NeoBundle 'chrisbra/csv.vim'
 "NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'jlanzarotta/bufexplorer'
