@@ -131,6 +131,7 @@ NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'chrisbra/csv.vim'
 "NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'jlanzarotta/bufexplorer'
+NeoBundle 'vim-ruby/vim-ruby'
 
 filetype plugin indent on     " required!
 

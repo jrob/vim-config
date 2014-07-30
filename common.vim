@@ -11,7 +11,10 @@ set relativenumber           " Show relative line numbers
 " tabs
 set tabstop=4                " Tabs are displayed as 4 spaces
 set shiftwidth=4             " Shifts using > are 4 spaces
+set softtabstop=4            " Number of spaces that a tab counts for when editing
 set expandtab                " Tabs are converted to spaces.
+
+autocmd FileType ruby :setlocal sw=2 ts=2 sts=2 " Two spaces for ruby
 
 "-------------------------------------------------------------------------------
 " search and replace
