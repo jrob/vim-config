@@ -84,8 +84,7 @@ NeoBundle 'tpope/vim-unimpaired'
 "NeoBundle 'Kazark/vim-SimpleSmoothScroll'
 NeoBundle 'dhruvasagar/vim-table-mode'
 NeoBundle 'godlygeek/tabular'
-"NeoBundle 'tpope/vim-markdown'
-NeoBundle 'plasticboy/vim-markdown'
+NeoBundle 'tpope/vim-markdown'
 let g:vim_markdown_folding_disabled=1
 
 " vim-snipmate dependancies
