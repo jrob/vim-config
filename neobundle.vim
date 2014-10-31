@@ -81,12 +81,12 @@ NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'godlygeek/tabular'
 NeoBundle 'tpope/vim-markdown'
 let g:vim_markdown_folding_disabled=1
-NeoBundle 'MarcWeber/vim-addon-mw-utils'  " vim-snipmate dependancies
-NeoBundle 'tomtom/tlib_vim'               " vim-snipmate dependancies
-NeoBundle 'honza/vim-snippets'            " vim-snipmate dependancies
-NeoBundle 'garbas/vim-snipmate'           " vim-snipmate
-NeoBundle 'davidhalter/jedi-vim'          " Python stuff
-NeoBundle 'ntpeters/vim-better-whitespace'
+NeoBundle 'MarcWeber/vim-addon-mw-utils'    " vim-snipmate dependancies
+NeoBundle 'tomtom/tlib_vim'                 " vim-snipmate dependancies
+NeoBundle 'honza/vim-snippets'              " vim-snipmate dependancies
+NeoBundle 'garbas/vim-snipmate'             " vim-snipmate
+NeoBundle 'davidhalter/jedi-vim'            " Python stuff
+NeoBundle 'ntpeters/vim-better-whitespace'  " whitespace display and cleanup
 let g:better_whitespace_filetypes_blacklist=['qf', 'help']
 
 NeoBundle 'chrisbra/csv.vim'

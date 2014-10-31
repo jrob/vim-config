@@ -53,8 +53,6 @@ autocmd FileType qf,help set nolist
 
 "autocmd FileType pandoc,vim,vimwiki set list
 
-" This will reset the listchars option to the default:
-" set listchars&
 
 " Set the cursor to the same as windows default
 set guicursor=n-v-c:block-Cursor/lCursor-Cursor-blinkwait530-blinkoff530-blinkon530,ve:ver35-Cursor-Cursor-blinkwait530-blinkoff530-blinkon530,o:hor50-Cursor-Cursor-blinkwait530-blinkoff530-blinkon530,i-ci:ver25-Cursor/lCursor-Cursor-blinkwait530-blinkoff530-blinkon530,r-cr:hor20-Cursor/lCursor,sm:block-Cursor-blinkwait530-blinkoff530-blinkon530
@@ -75,6 +73,8 @@ if has('gui_running')
     set guioptions-=e
 
     " Set the fontet if running in the gui
+    " Compatible consolas powerline font set.
+    " https://github.com/runsisi/consolas-font-for-powerline
     set guifont=Powerline_Consolas:h10:cANSI " 2014-10-24
 endif
 
