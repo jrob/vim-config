@@ -95,6 +95,8 @@ NeoBundle 'vim-ruby/vim-ruby'
 
 " Compatible consolas powerline font set.
 " https://github.com/runsisi/consolas-font-for-powerline
+NeoBundle 'OrangeT/vim-csharp'              " C# sytanx file
+NeoBundle 'gerw/vim-HiLinkTrace'
 NeoBundle 'bling/vim-airline'               " Improved status line
 let g:airline_theme='light'
 let g:airline_powerline_fonts = 1
