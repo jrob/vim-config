@@ -72,7 +72,7 @@ if has('gui_running')
     colorscheme moria
 endif
 
-NeoBundle 'eiginn/netrw'
+NeoBundle 'eiginn/netrw'                    " Default in file browser
 NeoBundle 'xolox/vim-shell'
 NeoBundle 'PProvost/vim-ps1'
 NeoBundle 'tpope/vim-surround'
@@ -95,7 +95,7 @@ NeoBundle 'vim-ruby/vim-ruby'
 
 " Compatible consolas powerline font set.
 " https://github.com/runsisi/consolas-font-for-powerline
-NeoBundle 'bling/vim-airline'      " Improved status line
+NeoBundle 'bling/vim-airline'               " Improved status line
 let g:airline_theme='light'
 let g:airline_powerline_fonts = 1
 
