@@ -89,11 +89,5 @@ endif
 " noremap <C-PageUp> :bp
 " noremap <C-PageDown> :bn
 " noremap <C-F4> :bd
-"
-
-
-"autocmd InsertEnter * syn clear EOLWS | syn match EOLWS excludenl /\s\+\%#\@!$/
-"autocmd InsertLeave * syn clear EOLWS | syn match EOLWS excludenl /\s\+$/
-"highlight EOLWS ctermbg=red guibg=red
 
 highlight ExtraWhitespace ctermbg=darkblue guibg=darkblue
