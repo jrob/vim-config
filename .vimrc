@@ -75,7 +75,7 @@ if has('gui_running')
     set guioptions-=e
 
     " Set the fontet if running in the gui
-    set guifont=Consolas:h10:cANSI
+    set guifont=Powerline_Consolas:h10:cANSI " 2014-10-24
 endif
 
 " Pandoc
