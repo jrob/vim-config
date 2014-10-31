@@ -81,7 +81,6 @@ NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'godlygeek/tabular'
 NeoBundle 'tpope/vim-markdown'
 let g:vim_markdown_folding_disabled=1
-
 NeoBundle "MarcWeber/vim-addon-mw-utils"  " vim-snipmate dependancies
 NeoBundle "tomtom/tlib_vim"               " vim-snipmate dependancies
 NeoBundle "honza/vim-snippets"            " vim-snipmate dependancies
