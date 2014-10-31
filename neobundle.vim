@@ -69,11 +69,16 @@ if has('gui_running')
     "colorscheme hybrid-light
     "colorscheme candyman
     "colorscheme darkrobot
-    "colorscheme dual
     "set background=light
+    "colorscheme eclipse
+    " ----- 2014-10-10 -----
+    "let moria_style='white'
+    "colorscheme moria
+    " ----- 2014-10-10 -----
+    "colorscheme dual
+    " ----- 2014-10-24 -----
     let moria_style='white'
     colorscheme moria
-    "colorscheme eclipse
 endif
 
 NeoBundle 'mbbill/VimExplorer'
