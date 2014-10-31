@@ -21,32 +21,32 @@ exec "source ".myvimpath."\\netrw.vim"
 exec "source ".myvimpath."\\pandoc.vim"
 "-------------------------------------------------------------------------------
 
-set fileencoding=utf-8       " Set default encoding to utf-8
-set wildmenu                 " enables a menu at the bottom of the vim/gvim window
-set scrolloff=3              " Minimal number of screen lines to keep above and below the cursor
-set autoindent               " Copy indent from current line when starting a new line
-"set showmode                " If in Insert, Replace or Visual mode '.put a message on the last line.
-"set ttyfast                  " Indicates a fast terminal connection
-set ruler                    " dislpay line,row
-set laststatus=2             " Always show the status line
+set fileencoding=utf-8   " Set default encoding to utf-8
+set wildmenu             " enables a menu at the bottom of the vim/gvim window
+set scrolloff=3          " Minimal number of screen lines to keep above and below the cursor
+set autoindent           " Copy indent from current line when starting a new line
+"set showmode            " If in Insert, Replace or Visual mode '.put a message on the last line.
+"set ttyfast             " Indicates a fast terminal connection
+set ruler                " dislpay line,row
+set laststatus=2         " Always show the status line
 "set undofile
-set showcmd                  " Show (partial) command in the last line of the screen
-syntax enable                " Automatically show syntax colors
-set syntax=automatic         " Choose syntax automatically
-set clipboard+=unnamed       " Use the system clipboard for y and p
-set history=10000            " remember more commands and search history
-set undolevels=10000         " use many muchos levels of undo
-"set autochdir                " Change directory to the current buffer when opening files.
-
+set showcmd              " Show (partial) command in the last line of the screen
+syntax enable            " Automatically show syntax colors
+set syntax=automatic     " Choose syntax automatically
+set clipboard+=unnamed   " Use the system clipboard for y and p
+set history=10000        " remember more commands and search history
+set undolevels=10000     " use many muchos levels of undo
+"set autochdir           " Change directory to the current buffer when opening files.
 
 " vim litter
-"set nobackup                 " Do not create backup files when saving over existing files
-"set nowritebackup            " A little paranoid, but disable the writebackup function as well
-"set noswapfile               " No swap files when editing please
+"set nobackup            " Do not create backup files when saving over existing files
+"set nowritebackup       " A little paranoid, but disable the writebackup function as well
+"set noswapfile          " No swap files when editing please
 
-set listchars=tab:»\         " Show Tab Characters
-"set listchars+=eol:¬        " Make Line Wraps More Noticeable
-"set listchars+=trail:·       " Show Trailing Whitespace
+set listchars=tab:»\     " Show Tab Characters
+"set listchars+=eol:¬    " Make Line Wraps More Noticeable
+"set listchars+=trail:·  " Show Trailing Whitespace
+"set listchars&          " This will reset the listchars option to the default:
 "set list
 autocmd FileType * set list
 autocmd FileType qf,help set nolist
