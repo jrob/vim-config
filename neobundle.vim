@@ -17,15 +17,6 @@ NeoBundle 'Shougo/vimproc.vim', {
       \    },
       \ }
 
-"NeoBundle 'Shougo/vimfiler.vim'
-"NeoBundle 'Shougo/unite.vim'
-"call unite#filters#matcher_default#use(['matcher_fuzzy'])
-"let g:unite_source_history_yank_enable = 1
-"nnoremap <leader>mb :Unite -no-split -buffer-name=buffer -start-insert buffer<cr>
-"nnoremap <leader>mf :Unite -no-split -buffer-name=files  -start-insert file_rec/async<cr>
-"nnoremap <leader>mg :Unite grep:.<cr>
-
-
 NeoBundle 'xolox/vim-misc'
 NeoBundle 'xolox/vim-session'
 if has('gui_running')
@@ -81,15 +72,12 @@ if has('gui_running')
     colorscheme moria
 endif
 
-NeoBundle 'mbbill/VimExplorer'
 NeoBundle 'eiginn/netrw'
 NeoBundle 'xolox/vim-shell'
 NeoBundle 'PProvost/vim-ps1'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-unimpaired'
-"NeoBundle 'yonchu/accelerated-smooth-scroll'
-"NeoBundle 'Kazark/vim-SimpleSmoothScroll'
 NeoBundle 'dhruvasagar/vim-table-mode'
 NeoBundle 'godlygeek/tabular'
 NeoBundle 'tpope/vim-markdown'
@@ -106,39 +94,11 @@ NeoBundle "garbas/vim-snipmate"
 " Python stuff
 NeoBundle 'davidhalter/jedi-vim'
 
-"NeoBundle 'vim-pandoc/vim-pandoc'
-"let g:pandoc_no_folding = 1
-
 NeoBundle 'vim-scripts/VOoM'
-"NeoBundle 'vimwiki/vimwiki'
-"let g:vimwiki_table_mappings = 0
-"let g:vimwiki_table_auto_fmt = 0
-
-"let wiki_1 = {}
-"let wiki_1.path = '~/my_docs/'
-"let wiki_1.ext = '.md'
-"let wiki_1.syntax = 'markdown'
-"let g:vimwiki_list = [wiki_1]
-"autocmd BufWinEnter,BufLeave,BufEnter */dropbox/notes/*.md set syntax=vimwiki
-
-"Bundle 'scrooloose/nerdtree'
-"let NERDTreeHijackNetrw = 0
-
-"NeoBundle 'altercation/vim-colors-solarized'
-"NeoBundle 'tomasr/molokai'
-"NeoBundle 'zeis/vim-kolor'
-"NeoBundle 'bufexplorer.zip'
-"
-"NeoBundle 'xolox/vim-notes'
-"let g:notes_suffix = '.md'
-"let g:notes_smart_quotes = 0
-"au BufNewFile,BufRead *.md set filetype=pandoc
-
 NeoBundle 'ntpeters/vim-better-whitespace'
 let g:better_whitespace_filetypes_blacklist=['qf', 'help']
 
 NeoBundle 'chrisbra/csv.vim'
-"NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'jlanzarotta/bufexplorer'
 NeoBundle 'vim-ruby/vim-ruby'
 
