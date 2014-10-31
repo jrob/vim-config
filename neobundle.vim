@@ -83,17 +83,11 @@ NeoBundle 'godlygeek/tabular'
 NeoBundle 'tpope/vim-markdown'
 let g:vim_markdown_folding_disabled=1
 
-" vim-snipmate dependancies
-NeoBundle "MarcWeber/vim-addon-mw-utils"
-NeoBundle "tomtom/tlib_vim"
-NeoBundle "honza/vim-snippets"
-
-" vim-snipmate
-NeoBundle "garbas/vim-snipmate"
-
-" Python stuff
-NeoBundle 'davidhalter/jedi-vim'
-
+NeoBundle "MarcWeber/vim-addon-mw-utils"  " vim-snipmate dependancies
+NeoBundle "tomtom/tlib_vim"               " vim-snipmate dependancies
+NeoBundle "honza/vim-snippets"            " vim-snipmate dependancies
+NeoBundle "garbas/vim-snipmate"           " vim-snipmate
+NeoBundle 'davidhalter/jedi-vim'          " Python stuff
 NeoBundle 'vim-scripts/VOoM'
 NeoBundle 'ntpeters/vim-better-whitespace'
 let g:better_whitespace_filetypes_blacklist=['qf', 'help']
