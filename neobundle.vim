@@ -134,6 +134,12 @@ NeoBundle 'chrisbra/csv.vim'
 NeoBundle 'jlanzarotta/bufexplorer'
 NeoBundle 'vim-ruby/vim-ruby'
 
+" Compatible consolas powerline font set.
+" https://github.com/runsisi/consolas-font-for-powerline
+NeoBundle 'bling/vim-airline'      " Improved status line
+let g:airline_theme='light'
+let g:airline_powerline_fonts = 1
+
 filetype plugin indent on     " required!
 
 " Brief help
