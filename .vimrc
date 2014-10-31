@@ -38,7 +38,6 @@ set history=10000            " remember more commands and search history
 set undolevels=10000         " use many muchos levels of undo
 "set autochdir                " Change directory to the current buffer when opening files.
 
-set regexpengine=1           " Trying to make ruby files faster...
 
 " vim litter
 "set nobackup                 " Do not create backup files when saving over existing files
