@@ -70,6 +70,7 @@ if has('gui_running')
     " ----- 2014-10-24 -----
     let moria_style='white'
     colorscheme moria
+
 endif
 
 NeoBundle 'eiginn/netrw'                    " Default in file browser
@@ -92,9 +93,6 @@ let g:better_whitespace_filetypes_blacklist=['qf', 'help']
 NeoBundle 'chrisbra/csv.vim'
 NeoBundle 'jlanzarotta/bufexplorer'
 NeoBundle 'vim-ruby/vim-ruby'
-
-" Compatible consolas powerline font set.
-" https://github.com/runsisi/consolas-font-for-powerline
 NeoBundle 'OrangeT/vim-csharp'              " C# sytanx file
 NeoBundle 'gerw/vim-HiLinkTrace'
 NeoBundle 'bling/vim-airline'               " Improved status line
