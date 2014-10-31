@@ -18,6 +18,7 @@ exec "source ".myvimpath."\\line-move.vim"
 exec "source ".myvimpath."\\line-delete.vim"
 exec "source ".myvimpath."\\formd.vim"
 exec "source ".myvimpath."\\netrw.vim"
+exec "source ".myvimpath."\\pandoc.vim"
 "-------------------------------------------------------------------------------
 
 set fileencoding=utf-8       " Set default encoding to utf-8
@@ -83,15 +84,6 @@ endif
 "nmap <silent> <leader>mc :%! pandoc -H %:p:hRender\header.html -B %:p:hRender\body.html -A %:p:hRender\footer.html -o %:p:hRender\output.html <CR>
 "nmap <silent> <leader>mx :silent call xolox#misc#os#exec({'command': 'pandoc "%:p" -H %:p:hRender\header.html -B %:p:hRender\body.html -A %:p:hRender\footer.html -o %:p:hRender\output.html', 'async': 0}) <CR>
 
-nmap <silent> <leader>mx :call PandocConv()<cr>
-function! PandocConv()
-    let cmd = {}
-    let filepath = expand("%:p")
-    let path = expand("%:p:h")
-    let cmd.command = 'pandoc "'.filepath.'" -H '.path.'Render\header.html -B '.path.'Render\body.html -A '.path.'Render\footer.html -o '.path.'Render\output.html'
-    let cmd.async = 0
-    call xolox#misc#os#exec(cmd)
-endfunction
 
 "map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
 
