@@ -48,8 +48,10 @@ set regexpengine=1           " Trying to make ruby files faster...
 set listchars=tab:»\         " Show Tab Characters
 "set listchars+=eol:¬        " Make Line Wraps More Noticeable
 "set listchars+=trail:·       " Show Trailing Whitespace
-set list
-"autocmd FileType * set nolist
+"set list
+autocmd FileType * set list
+autocmd FileType qf,help set nolist
+
 "autocmd FileType pandoc,vim,vimwiki set list
 
 " This will reset the listchars option to the default:

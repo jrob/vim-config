@@ -127,6 +127,7 @@ NeoBundle 'vim-scripts/VOoM'
 "au BufNewFile,BufRead *.md set filetype=pandoc
 
 NeoBundle 'ntpeters/vim-better-whitespace'
+let g:better_whitespace_filetypes_blacklist=['qf', 'help']
 
 NeoBundle 'chrisbra/csv.vim'
 "NeoBundle 'kien/ctrlp.vim'
