@@ -98,6 +98,7 @@ NeoBundle 'gerw/vim-HiLinkTrace'
 NeoBundle 'bling/vim-airline'               " Improved status line
 let g:airline_theme='light'
 let g:airline_powerline_fonts = 1
+NeoBundle 'tpope/vim-fugitive'              " Git wrapper
 
 filetype plugin indent on     " required!
 
