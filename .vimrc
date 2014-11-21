@@ -76,6 +76,12 @@ if has('gui_running')
     " Compatible consolas powerline font set.
     " https://github.com/runsisi/consolas-font-for-powerline
     set guifont=Powerline_Consolas:h10:cANSI " 2014-10-24
+
+    " Set a better diff color scheme
+    highlight DiffAdd        term=bold ctermbg=9 guifg=NONE guibg=#CCF5CC
+    highlight DiffDelete     term=bold ctermfg=9 ctermbg=11 guifg=NONE guibg=#FFB2B2
+    highlight DiffChange     term=bold ctermbg=13 guifg=NONE guibg=#DCCAFF
+    highlight DiffText       term=reverse cterm=bold ctermbg=12 gui=bold guifg=NONE guibg=#B894FF
 endif
 
 highlight ExtraWhitespace ctermbg=darkblue guibg=darkblue
