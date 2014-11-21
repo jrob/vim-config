@@ -7,7 +7,7 @@ set nocompatible
 
 " This needs to be done before other mappings. Otherwise alt mappings dont
 " work.
-set encoding=utf-8          " Set default encoding to utf-8
+set encoding=utf-8       " Set default encoding to utf-8
 set fileencoding=utf-8   " Set default encoding to utf-8
 
 "-------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ set undolevels=10000     " use many muchos levels of undo
 set listchars=tab:»\     " Show Tab Characters
 "set listchars+=eol:¬    " Make Line Wraps More Noticeable
 "set listchars+=trail:·  " Show Trailing Whitespace
-"set listchars&          " This will reset the listchars option to the default:
+"set listchars&          " This will reset the listchars option to the default
 "set list
 autocmd FileType * set list
 autocmd FileType qf,help set nolist
@@ -77,17 +77,5 @@ if has('gui_running')
     " https://github.com/runsisi/consolas-font-for-powerline
     set guifont=Powerline_Consolas:h10:cANSI " 2014-10-24
 endif
-
-" Pandoc
-"nmap <silent> <leader>mc :silent ! pandoc "%:p" -H %:p:hRender\header.html -B %:p:hRender\body.html -A %:p:hRender\footer.html -o %:p:hRender\output.html <CR>
-"nmap <silent> <leader>mc :%! pandoc -H %:p:hRender\header.html -B %:p:hRender\body.html -A %:p:hRender\footer.html -o %:p:hRender\output.html <CR>
-"nmap <silent> <leader>mx :silent call xolox#misc#os#exec({'command': 'pandoc "%:p" -H %:p:hRender\header.html -B %:p:hRender\body.html -A %:p:hRender\footer.html -o %:p:hRender\output.html', 'async': 0}) <CR>
-
-
-"map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
-
-" noremap <C-PageUp> :bp
-" noremap <C-PageDown> :bn
-" noremap <C-F4> :bd
 
 highlight ExtraWhitespace ctermbg=darkblue guibg=darkblue
