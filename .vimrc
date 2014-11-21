@@ -84,4 +84,8 @@ if has('gui_running')
     highlight DiffText       term=reverse cterm=bold ctermbg=12 gui=bold guifg=NONE guibg=#B894FF
 endif
 
+" vim
+" ---
+noremap <C-s> :write<CR>
+
 highlight ExtraWhitespace ctermbg=darkblue guibg=darkblue
