@@ -35,6 +35,7 @@ NeoBundle 'flazz/vim-colorschemes'
 "NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'xolox/vim-colorscheme-switcher'
 "NeoBundle 'jonathanfilip/vim-lucius'
+NeoBundle 'vim-scripts/moria'
 nnoremap <F9> :let @A = g:colors_name."','"<CR>
 let g:colorscheme_switcher_exclude = [
     \ 'default',
@@ -52,26 +53,6 @@ let g:colorscheme_switcher_exclude = [
     \ 'legiblelight','lilac','lilydjwg_dark','lilydjwg_green','luinnar','made_of_code','manxome','marklar','mars','matrix','mellow','miko','miko','MountainDew','mud','navajo','navajo-night','neutron','nicotine','night_vision','nightVision','oceanblack256','oceanlight','orange','pink','potts',
     \ 'tabula','telstar','tetragrammaton','thestars','tibet','tomatosoup','twilight256','vylight','wargrey','widower','win9xblueback','wood','xian','xmaslights','zen'
     \ ]
-if has('gui_running')
-    "colorscheme inkpot
-    "colorscheme maroloccio
-    "colorscheme jellybeans
-    "colorscheme rootwater
-    "colorscheme hybrid-light
-    "colorscheme candyman
-    "colorscheme darkrobot
-    "set background=light
-    "colorscheme eclipse
-    " ----- 2014-10-10 -----
-    "let moria_style='white'
-    "colorscheme moria
-    " ----- 2014-10-10 -----
-    "colorscheme dual
-    " ----- 2014-10-24 -----
-    let moria_style='white'
-    colorscheme moria
-
-endif
 
 NeoBundle 'eiginn/netrw'                    " Default in file browser
 NeoBundle 'xolox/vim-shell'

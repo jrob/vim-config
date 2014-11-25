@@ -120,3 +120,26 @@ highlight ExtraWhitespace ctermbg=darkblue guibg=darkblue
 vmap <Enter> <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. <Leader>aip)
 nmap <Leader>a <Plug>(EasyAlign)
+
+" colorscheme
+" -----------
+if has('gui_running')
+    "colorscheme inkpot
+    "colorscheme maroloccio
+    "colorscheme jellybeans
+    "colorscheme rootwater
+    "colorscheme hybrid-light
+    "colorscheme candyman
+    "colorscheme darkrobot
+    "set background=light
+    "colorscheme eclipse
+    " ----- 2014-10-10 -----
+    "let moria_style='white'
+    "colorscheme moria
+    " ----- 2014-10-10 -----
+    "colorscheme dual
+    " ----- 2014-10-24 -----
+    let moria_style='white'
+    colorscheme moria
+endif
+
