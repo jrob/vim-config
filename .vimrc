@@ -88,4 +88,13 @@ endif
 " ---
 noremap <C-s> :write<CR>
 
+" tpope/vim-fugitive
+" ------------------
+" The command is necessary because <C-w> was deleting the word
+command JumpToPreview execute "call feedkeys(\"<C-W>P\",'n')"
+" Alt-n and Alt-p preview the diffs from the status window
+autocmd FileType gitcommit nmap <buffer> <A-n> <C-n>D:JumpToPreview<CR>
+autocmd FileType gitcommit nmap <buffer> <A-p> <C-p>D:JumpToPreview<CR>
+nnoremap <leader>gs :Gstatus<CR>
+
 highlight ExtraWhitespace ctermbg=darkblue guibg=darkblue
