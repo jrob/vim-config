@@ -20,6 +20,7 @@ exec "source ".myvimpath."\\line-delete.vim"
 exec "source ".myvimpath."\\formd.vim"
 exec "source ".myvimpath."\\netrw.vim"
 exec "source ".myvimpath."\\pandoc.vim"
+exec "source ".myvimpath."\\tabmessage.vim"
 "-------------------------------------------------------------------------------
 
 set wildmenu             " enables a menu at the bottom of the vim/gvim window
