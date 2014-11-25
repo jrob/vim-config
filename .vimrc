@@ -62,25 +62,19 @@ if has("win32")
 endif
 
 if has('gui_running')
-    set guioptions-=T  "remove toolbar
-    set guioptions-=m  "remove menu bar
-    set guioptions-=T  "remove toolbar
-    set guioptions-=r  "remove right-hand scroll bar
-    set guioptions-=R
-    set guioptions-=l
-    set guioptions-=L
-    set guioptions-=e
+    " Add/remove guioptions
+    set guioptions-=m  " Menu bar
+    set guioptions-=T  " Toolbar
+    set guioptions-=r  " Right-hand scroll bar
+    set guioptions-=R  " Right hand scroll bar if necessary
+    set guioptions-=l  " Left-hand scroll bar
+    set guioptions-=L  " Left hand scroll bar if necessary
+    set guioptions-=e  " Add tab pages when if necessary
 
-    " Set the fontet if running in the gui
+    " Set the font if running in the gui
     " Compatible consolas powerline font set.
     " https://github.com/runsisi/consolas-font-for-powerline
     set guifont=Powerline_Consolas:h10:cANSI " 2014-10-24
-
-    " Set a better diff color scheme
-    highlight DiffAdd        term=bold ctermbg=9 guifg=NONE guibg=#CCF5CC
-    highlight DiffDelete     term=bold ctermfg=9 ctermbg=11 guifg=NONE guibg=#FFB2B2
-    highlight DiffChange     term=bold ctermbg=13 guifg=NONE guibg=#DCCAFF
-    highlight DiffText       term=reverse cterm=bold ctermbg=12 gui=bold guifg=NONE guibg=#B894FF
 endif
 
 " vim
@@ -123,6 +117,12 @@ nmap <Leader>a <Plug>(EasyAlign)
 
 " colorscheme
 " -----------
+" Set a better diff color scheme
+highlight DiffAdd    term=bold                          ctermbg=9             guifg=NONE guibg=#CCF5CC
+highlight DiffDelete term=bold               ctermfg=9  ctermbg=11            guifg=NONE guibg=#FFB2B2
+highlight DiffChange term=bold                          ctermbg=13            guifg=NONE guibg=#DCCAFF
+highlight DiffText   term=reverse cterm=bold            ctermbg=12 gui=bold   guifg=NONE guibg=#B894FF
+
 if has('gui_running')
     "colorscheme inkpot
     "colorscheme maroloccio
