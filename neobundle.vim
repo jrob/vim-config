@@ -79,7 +79,6 @@ NeoBundle 'PProvost/vim-ps1'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-unimpaired'
-NeoBundle 'godlygeek/tabular'
 NeoBundle 'tpope/vim-markdown'
 NeoBundle 'MarcWeber/vim-addon-mw-utils'    " vim-snipmate dependancies
 NeoBundle 'tomtom/tlib_vim'                 " vim-snipmate dependancies
@@ -95,6 +94,7 @@ NeoBundle 'gerw/vim-HiLinkTrace'
 NeoBundle 'bling/vim-airline'               " Improved status line
 NeoBundle 'tpope/vim-fugitive'              " Git wrapper
 NeoBundle 'gregsexton/gitv'                 " Git Log viewer
+NeoBundle 'junegunn/vim-easy-align'         " An alternative alignment plugin
 
 filetype plugin indent on     " required!
 

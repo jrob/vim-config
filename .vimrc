@@ -111,3 +111,10 @@ let g:vim_markdown_folding_disabled=1
 " ------------------------------
 let g:better_whitespace_filetypes_blacklist=['qf', 'help', 'git', 'gitcommit']
 highlight ExtraWhitespace ctermbg=darkblue guibg=darkblue
+
+" junegunn/vim-easy-align
+" -----------------------
+" Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+" Start interactive EasyAlign for a motion/text object (e.g. <Leader>aip)
+nmap <Leader>a <Plug>(EasyAlign)
