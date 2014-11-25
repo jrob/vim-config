@@ -81,23 +81,18 @@ NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'godlygeek/tabular'
 NeoBundle 'tpope/vim-markdown'
-let g:vim_markdown_folding_disabled=1
 NeoBundle 'MarcWeber/vim-addon-mw-utils'    " vim-snipmate dependancies
 NeoBundle 'tomtom/tlib_vim'                 " vim-snipmate dependancies
 NeoBundle 'honza/vim-snippets'              " vim-snipmate dependancies
 NeoBundle 'garbas/vim-snipmate'             " vim-snipmate
 NeoBundle 'davidhalter/jedi-vim'            " Python stuff
 NeoBundle 'ntpeters/vim-better-whitespace'  " whitespace display and cleanup
-let g:better_whitespace_filetypes_blacklist=['qf', 'help']
-
 NeoBundle 'chrisbra/csv.vim'
 NeoBundle 'jlanzarotta/bufexplorer'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'OrangeT/vim-csharp'              " C# sytanx file
 NeoBundle 'gerw/vim-HiLinkTrace'
 NeoBundle 'bling/vim-airline'               " Improved status line
-let g:airline_theme='light'
-let g:airline_powerline_fonts = 1
 NeoBundle 'tpope/vim-fugitive'              " Git wrapper
 NeoBundle 'gregsexton/gitv'                 " Git Log viewer
 

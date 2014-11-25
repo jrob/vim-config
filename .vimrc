@@ -101,4 +101,16 @@ nnoremap <leader>gs :Gstatus<CR>
 " ---------------
 nnoremap <leader>gl :Gitv --all<CR>
 
+" bling/vim-airline
+" -----------------
+let g:airline_theme='light'
+let g:airline_powerline_fonts = 1
+
+" tpope/vim-markdown
+" ------------------
+let g:vim_markdown_folding_disabled=1
+
+" ntpeters/vim-better-whitespace
+" ------------------------------
+let g:better_whitespace_filetypes_blacklist=['qf', 'help', 'git', 'gitcommit']
 highlight ExtraWhitespace ctermbg=darkblue guibg=darkblue
