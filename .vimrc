@@ -97,4 +97,8 @@ autocmd FileType gitcommit nmap <buffer> <A-n> <C-n>D:JumpToPreview<CR>
 autocmd FileType gitcommit nmap <buffer> <A-p> <C-p>D:JumpToPreview<CR>
 nnoremap <leader>gs :Gstatus<CR>
 
+" gregsexton/gitv
+" ---------------
+nnoremap <leader>gl :Gitv --all<CR>
+
 highlight ExtraWhitespace ctermbg=darkblue guibg=darkblue
