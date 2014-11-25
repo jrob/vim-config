@@ -80,10 +80,6 @@ NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'tpope/vim-markdown'
-NeoBundle 'MarcWeber/vim-addon-mw-utils'    " vim-snipmate dependancies
-NeoBundle 'tomtom/tlib_vim'                 " vim-snipmate dependancies
-NeoBundle 'honza/vim-snippets'              " vim-snipmate dependancies
-NeoBundle 'garbas/vim-snipmate'             " vim-snipmate
 NeoBundle 'davidhalter/jedi-vim'            " Python stuff
 NeoBundle 'ntpeters/vim-better-whitespace'  " whitespace display and cleanup
 NeoBundle 'chrisbra/csv.vim'
