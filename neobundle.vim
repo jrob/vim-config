@@ -99,6 +99,7 @@ NeoBundle 'bling/vim-airline'               " Improved status line
 let g:airline_theme='light'
 let g:airline_powerline_fonts = 1
 NeoBundle 'tpope/vim-fugitive'              " Git wrapper
+NeoBundle 'gregsexton/gitv'                 " Git Log viewer
 
 filetype plugin indent on     " required!
 
