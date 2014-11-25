@@ -50,7 +50,7 @@ set listchars=tab:»\     " Show Tab Characters
 "set listchars&          " This will reset the listchars option to the default
 "set list
 autocmd FileType * set list
-autocmd FileType qf,help set nolist
+autocmd FileType qf,help,git,gitcommit set nolist
 
 " Set the cursor to the same as windows default
 set guicursor=n-v-c:block-Cursor/lCursor-Cursor-blinkwait530-blinkoff530-blinkon530,ve:ver35-Cursor-Cursor-blinkwait530-blinkoff530-blinkon530,o:hor50-Cursor-Cursor-blinkwait530-blinkoff530-blinkon530,i-ci:ver25-Cursor/lCursor-Cursor-blinkwait530-blinkoff530-blinkon530,r-cr:hor20-Cursor/lCursor,sm:block-Cursor-blinkwait530-blinkoff530-blinkon530
