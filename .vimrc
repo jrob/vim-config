@@ -38,6 +38,8 @@ set clipboard+=unnamed   " Use the system clipboard for y and p
 set history=10000        " remember more commands and search history
 set undolevels=10000     " use many muchos levels of undo
 "set autochdir           " Change directory to the current buffer when opening files.
+set hidden               " Allow vim to move away from modified buffers
+set winaltkeys=no        " Don't use ALT keys for menus
 
 " vim litter
 "set nobackup            " Do not create backup files when saving over existing files
