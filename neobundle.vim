@@ -1,10 +1,10 @@
 filetype off " required!
 
 let &rtp=&rtp.",".myvimpath."\\bundle\\neobundle.vim"
-call neobundle#rc(myvimpath."\\bundle")
+call neobundle#begin(myvimpath."\\bundle")
 
 " required!
-NeoBundle 'Shougo/neobundle.vim'
+NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Recommended to install
 " After install, turn shell ~/.vim/bundle/vimproc, (n,g)make -f your_machines_makefile
@@ -72,6 +72,8 @@ NeoBundle 'bling/vim-airline'               " Improved status line
 NeoBundle 'tpope/vim-fugitive'              " Git wrapper
 NeoBundle 'gregsexton/gitv'                 " Git Log viewer
 NeoBundle 'junegunn/vim-easy-align'         " An alternative alignment plugin
+
+call neobundle#end()
 
 filetype plugin indent on     " required!
 
