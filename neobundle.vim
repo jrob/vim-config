@@ -68,7 +68,8 @@ NeoBundle 'jlanzarotta/bufexplorer'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'OrangeT/vim-csharp'              " C# sytanx file
 NeoBundle 'gerw/vim-HiLinkTrace'
-NeoBundle 'bling/vim-airline'               " Improved status line
+NeoBundle 'vim-airline/vim-airline'               " Improved status line
+NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'tpope/vim-fugitive'              " Git wrapper
 NeoBundle 'gregsexton/gitv'                 " Git Log viewer
 NeoBundle 'junegunn/vim-easy-align'         " An alternative alignment plugin
